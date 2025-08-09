@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import { useSession, signIn } from 'next-auth/react'
 import type { NavigationData, NavigationItem, NavigationSubItem } from '@/types/navigation'
 import type { SiteConfig } from '@/types/site'
 import { NavigationCard } from '@/components/navigation-card'
@@ -9,9 +8,8 @@ import { Sidebar } from '@/components/sidebar'
 import { SearchBar } from '@/components/search-bar'
 import { SearchEngineBanner } from '@/components/search-engine-banner'
 import { ModeToggle } from '@/components/mode-toggle'
-import { UserNav } from '@/components/admin/user-nav'
 import { Footer } from '@/components/footer'
-import { Github, HelpCircle, LogIn } from 'lucide-react'
+import { Github, HelpCircle } from 'lucide-react'
 import { Button } from "@/registry/new-york/ui/button"
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -23,7 +21,6 @@ interface NavigationContentProps {
 }
 
 export function NavigationContent({ navigationData, siteData }: NavigationContentProps) {
-  const { data: session, status } = useSession()
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
 
@@ -106,7 +103,7 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
   }
 
   return (
-    <div className="flex flex-col sm:flex-row min-h-screen">
+    <div className="flex flex-col sm:flex-row min-h-screen w-full">
       <div className="hidden sm:block">
         <Sidebar
           navigationData={navigationData}
@@ -133,7 +130,7 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
 
       <main className="flex-1">
         {/* 顶部搜索栏 */}
-        <div className="sticky top-0 bg-background/90 backdrop-blur-sm z-30 px-3 sm:px-6 py-2">
+        <div className="sticky top-0 bg-background/90 backdrop-blur-sm z-30 px-2 sm:px-4 py-2">
           <div className="flex items-center gap-3">
             <div className="flex-1">
               <SearchBar
@@ -144,60 +141,13 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
               />
             </div>
             <div className="flex items-center gap-1">
-              {/* 桌面端显示用户认证状态和所有按钮 */}
+              {/* 桌面端显示所有按钮 */}
               <div className="hidden sm:flex items-center gap-1">
-                {/* 桌面端用户认证状态 */}
-                {status === 'loading' ? (
-                  <div className="w-8 h-8 rounded-full bg-muted animate-pulse" />
-                ) : session?.user ? (
-                  <UserNav user={session.user} />
-                ) : (
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => signIn('github')}
-                    className="flex items-center gap-2 hover:bg-accent hover:text-accent-foreground"
-                  >
-                    <LogIn className="h-4 w-4" />
-                    <span>登录</span>
-                  </Button>
-                )}
                 <ModeToggle />
-                <Link
-                  href="https://github.com/tianyaxiang/NavSphere"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="访问 GitHub 仓库"
-                >
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className="hover:bg-accent hover:text-accent-foreground"
-                  >
-                    <Github className="h-5 w-5" />
-                  </Button>
-                </Link>
-
               </div>
               
-              {/* 移动端显示登录状态、主题切换和菜单按钮 */}
+              {/* 移动端只显示主题切换和菜单按钮 */}
               <div className="flex sm:hidden items-center gap-1">
-                {/* 移动端用户认证状态 */}
-                {status === 'loading' ? (
-                  <div className="w-8 h-8 rounded-full bg-muted animate-pulse" />
-                ) : session?.user ? (
-                  <UserNav user={session.user} />
-                ) : (
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => signIn('github')}
-                    className="hover:bg-accent hover:text-accent-foreground"
-                    aria-label="GitHub登录"
-                  >
-                    <LogIn className="h-4 w-4" />
-                  </Button>
-                )}
                 <ModeToggle />
                 <Button
                   variant="ghost"
@@ -212,11 +162,11 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
         </div>
 
         {/* 搜索引擎横幅 */}
-        <div className="px-3 sm:px-6 pt-4 pb-2">
+        <div className="px-2 sm:px-4 pt-4 pb-2">
           <SearchEngineBanner />
         </div>
 
-        <div className="px-3 sm:px-6 py-3 sm:py-6">
+        <div className="px-2 sm:px-4 py-3 sm:py-6">
           <div className="space-y-6">
             {navigationData.navigationItems.map((category) => (
               <section key={category.id} id={category.id} className="scroll-m-16">

@@ -6,6 +6,7 @@ import { ThemeToggle } from '@/components/theme-toggle'
 import { Providers } from '@/components/providers'
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { ParticleBackground } from '@/components/particle-background'
 
 export const metadata: Metadata = {
   title: {
@@ -45,12 +46,28 @@ export default function RootLayout({
         />
       </head>
       <body suppressHydrationWarning>
+        <div
+          style={{
+            position: 'fixed',
+            width: '100vw',
+            height: '100vh',
+            backgroundImage: `url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1740&auto=format&fit=crop')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            zIndex: -10,
+          }}
+        />
+        <div
+          className="fixed top-0 left-0 w-full h-full bg-black/30 dark:bg-black/50"
+          style={{ zIndex: -9 }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
+          <ParticleBackground />
           <Providers>
             {children}
           </Providers>
