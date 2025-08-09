@@ -23,10 +23,17 @@ interface SearchBarProps {
 
 export function SearchBar({ onSearch, searchResults, searchQuery }: SearchBarProps) {
   const [isFocused, setIsFocused] = useState(false)
+  const [mounted, setMounted] = useState(false)
   const searchRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (!mounted) return
+    
     const handleClickOutside = (event: MouseEvent) => {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setIsFocused(false)
@@ -35,9 +42,11 @@ export function SearchBar({ onSearch, searchResults, searchQuery }: SearchBarPro
 
     document.addEventListener('mousedown', handleClickOutside)
     return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
+  }, [mounted])
 
   useEffect(() => {
+    if (!mounted) return
+    
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         setIsFocused(false)
@@ -53,7 +62,7 @@ export function SearchBar({ onSearch, searchResults, searchQuery }: SearchBarPro
 
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [])
+  }, [mounted])
 
   const highlightText = (text: string) => {
     if (!searchQuery) return text
@@ -71,7 +80,7 @@ export function SearchBar({ onSearch, searchResults, searchQuery }: SearchBarPro
 
   const handleItemSelect = (item: NavigationItem | NavigationSubItem) => {
     const itemWithHref = item as NavigationSubItem
-    if (itemWithHref.href) {
+    if (itemWithHref.href && typeof window !== 'undefined') {
       window.open(itemWithHref.href, '_blank')
     }
     onSearch('')

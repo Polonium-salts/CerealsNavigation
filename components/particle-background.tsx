@@ -8,7 +8,12 @@ import { useTheme } from "next-themes";
 
 export const ParticleBackground = () => {
   const [init, setInit] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -297,20 +302,21 @@ export const ParticleBackground = () => {
     if (theme === "dark") {
       return options; // 星空效果
     } else {
-      // 随机选择雪花或烟花效果
-      return Math.random() > 0.5 ? snowOptions : fireworksOptions;
+      // 默认使用雪花效果，避免Math.random()导致的水合不匹配
+      return snowOptions;
     }
   };
 
-  if (init) {
-    return (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={getParticleOptions()}
-      />
-    );
+  // 确保只在客户端挂载后渲染，避免水合不匹配
+  if (!mounted || !init) {
+    return <></>;
   }
 
-  return <></>;
+  return (
+    <Particles
+      id="tsparticles"
+      particlesLoaded={particlesLoaded}
+      options={getParticleOptions()}
+    />
+  );
 };

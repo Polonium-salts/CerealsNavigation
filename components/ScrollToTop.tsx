@@ -4,9 +4,10 @@ import { useEffect, useState } from 'react'
 
 export function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false)
+  const [mounted, setMounted] = useState(false)
 
   const toggleVisibility = () => {
-    if (window.scrollY > 300) {
+    if (typeof window !== 'undefined' && window.scrollY > 300) {
       setIsVisible(true)
     } else {
       setIsVisible(false)
@@ -21,11 +22,22 @@ export function ScrollToTop() {
   }
 
   useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (!mounted) return
+    
     window.addEventListener('scroll', toggleVisibility)
     return () => {
       window.removeEventListener('scroll', toggleVisibility)
     }
-  }, [])
+  }, [mounted])
+
+  // 确保只在客户端挂载后渲染，避免水合不匹配
+  if (!mounted) {
+    return null
+  }
 
   return (
     <>
@@ -59,4 +71,4 @@ export function ScrollToTop() {
       )}
     </>
   )
-} 
+}

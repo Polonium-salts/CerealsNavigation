@@ -66,6 +66,7 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
+          suppressHydrationWarning
         >
           <ParticleBackground />
           <Providers>
