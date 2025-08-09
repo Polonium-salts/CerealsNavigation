@@ -51,7 +51,7 @@ export default function RootLayout({
             position: 'fixed',
             width: '100vw',
             height: '100vh',
-            backgroundImage: `url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1740&auto=format&fit=crop')`,
+            backgroundImage: `url('https://pub-80c5aa3f3a7a4ea28903ff25058fced2.r2.dev/115795269_p0_master1200.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             zIndex: -10,

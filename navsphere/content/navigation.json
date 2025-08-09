@@ -123,7 +123,7 @@
       "description": "",
       "enabled": true
     },
-        {
+    {
       "id": "2",
       "title": "开源软件",
       "icon": "Github",
@@ -132,7 +132,7 @@
       "items": [],
       "subCategories": [
         {
-          "id": "1",
+          "id": "1324213353",
           "title": "开发工具",
           "icon": "Code",
           "description": "开源开发工具和IDE",
@@ -160,6 +160,14 @@
               "href": "https://www.docker.com/",
               "description": "容器化平台，简化应用程序的部署和管理。",
               "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzcuMTMiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjU2IDE4NSI+PHBhdGggZmlsbD0iIzIzOTZFRCIgZD0iTTI1MC43MTYgNzAuNDk3Yy01Ljc2NS00LTE4Ljk3Ni01LjUtMjkuMzA0LTMuNWMtMS4yLTEwLTYuNzI1LTE4Ljc0OS0xNi4zMzMtMjYuNDk5bC01LjUyNC00bC0zLjg0NCA1Ljc1Yy00LjgwMyA3LjUtNy4yMDUgMTgtNi40ODUgMjhjLjI0IDMuNDk5IDEuNDQxIDkuNzQ5IDUuMDQ0IDE1LjI0OWMtMy4zNjIgMi0xMC4zMjggNC41LTE5LjQ1NSA0LjVIMS4xNTVsLS40OCAyYy0xLjY4MiA5Ljk5OS0xLjY4MiA0MS4yNDggMTguMDE0IDY1LjI0N2MxNC44OTIgMTguMjQ5IDM2Ljk5IDI3LjQ5OSA2Ni4wNTMgMjcuNDk5YzYyLjkzIDAgMTA5LjUyOC0zMC4yNSAxMzEuMzg2LTg0Ljk5N2M4LjY0Ny4yNSAyNy4xNDIgMCAzNi41MS0xOC43NWMuMjQtLjUuNzItMS41IDIuNDAxLTUuMjQ5bC45NjEtMnpNMTM5Ljk4NiAwaC0yNi40MnYyNC45OTloMjYuNDJ6bTAgMjkuOTk5aC0yNi40MnYyNC45OTloMjYuNDJ6bS0zMS4yMjUgMGgtMjYuNDJ2MjQuOTk5aDI2LjQyem0tMzEuMjI1IDBINTEuMTE1djI0Ljk5OWgyNi40MjF6TTQ2LjMxMSA1OS45OThIMTkuODl2MjQuOTk5aDI2LjQyem0zMS4yMjUgMEg1MS4xMTV2MjQuOTk5aDI2LjQyMXptMzEuMjI1IDBoLTI2LjQydjI0Ljk5OWgyNi40MnptMzEuMjI2IDBoLTI2LjQyMnYyNC45OTloMjYuNDIyem0zMS4yMjUgMEgxNDQuNzl2MjQuOTk5aDI2LjQyMnoiLz48L3N2Zz4=",
+              "enabled": true
+            },
+            {
+              "id": "OpenStore",
+              "title": "OpenStore",
+              "href": "https://store.cereals.fun/",
+              "description": "cereals studio开源的跨平台自由应用商店",
+              "icon": "https://store.cereals.fun/YMCL-Icon.svg",
               "enabled": true
             }
           ]
@@ -939,6 +947,33 @@
               "href": "https://unsplash.com/",
               "description": "免费高清图片",
               "icon": "/assets/images/logos/unsplash.png",
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "452389573092",
+      "title": "软件源",
+      "icon": "Link",
+      "description": "优秀的开源软件项目",
+      "enabled": true,
+      "items": [],
+      "subCategories": [
+        {
+          "id": "1324213353",
+          "title": "OpenStore",
+          "icon": "Code",
+          "description": "开源开发工具和IDE",
+          "enabled": true,
+          "items": [
+            {
+              "id": "vscode",
+              "title": "Visual Studio Code",
+              "href": "https://code.visualstudio.com/",
+              "description": "微软开源的轻量级代码编辑器，支持多种编程语言和丰富的插件生态。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IiMyMTk2ZjMiIGQ9Ik0xMS41IDExLjE5VjQuOEw3LjMgNy45OU0xLjE3IDYuMDdhLjYuNiAwIDAgMS0uMDEtLjgxTDIgNC40OGMuMTQtLjEzLjQ4LS4xOC43MyAwbDIuMzkgMS44M2w1LjU1LTUuMDljLjIyLS4yMi42MS0uMzIgMS4wNS0uMDhsMi44IDEuMzRjLjI1LjE1LjQ5LjM4LjQ5LjgxdjkuNDljMCAuMjgtLjIuNTgtLjQyLjdsLTMuMDggMS40OGMtLjIyLjA5LS42NCAwLS43OS0uMTRMNS4xMSA5LjY5bC0yLjM4IDEuODNjLS4yNy4xOC0uNi4xMy0uNzQgMGwtLjg0LS43N2MtLjIyLS4yMy0uMi0uNjEuMDQtLjg0bDIuMS0xLjkiLz48L3N2Zz4=",
               "enabled": true
             }
           ]
