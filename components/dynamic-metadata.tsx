@@ -12,22 +12,32 @@ export function DynamicMetadata() {
   }, [])
 
   useEffect(() => {
-    if (!mounted || !siteInfo || typeof document === 'undefined') return
-    
-    // 更新文档标题
-    document.title = siteInfo.basic.title
-    
-    // 更新 meta 描述
-    const metaDescription = document.querySelector('meta[name="description"]')
-    if (metaDescription) {
-      metaDescription.setAttribute('content', siteInfo.basic.description)
-    } else {
-      const meta = document.createElement('meta')
-      meta.name = 'description'
-      meta.content = siteInfo.basic.description
-      document.head.appendChild(meta)
+    if (mounted && typeof document !== 'undefined' && typeof window !== 'undefined' && siteInfo) {
+      try {
+        // 更新页面标题
+        if (document.title !== siteInfo.basic.title) {
+          document.title = siteInfo.basic.title
+        }
+
+        // 更新或创建 meta description
+        let metaDescription = document.querySelector('meta[name="description"]')
+        if (metaDescription) {
+          if (metaDescription.getAttribute('content') !== siteInfo.basic.description) {
+            metaDescription.setAttribute('content', siteInfo.basic.description)
+          }
+        } else {
+          metaDescription = document.createElement('meta')
+          metaDescription.setAttribute('name', 'description')
+          metaDescription.setAttribute('content', siteInfo.basic.description)
+          if (document.head) {
+            document.head.appendChild(metaDescription)
+          }
+        }
+      } catch (error) {
+        console.warn('Failed to update metadata:', error)
+      }
     }
-  }, [mounted, siteInfo])
+  }, [siteInfo, mounted])
 
   return null
 }

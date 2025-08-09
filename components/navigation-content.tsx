@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import type { NavigationData, NavigationItem, NavigationSubItem } from '@/types/navigation'
 import type { SiteConfig } from '@/types/site'
 import { NavigationCard } from '@/components/navigation-card'
@@ -23,6 +23,11 @@ interface NavigationContentProps {
 export function NavigationContent({ navigationData, siteData }: NavigationContentProps) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   // 修复类型检查和搜索逻辑
   const searchResults = useMemo(() => {
@@ -100,6 +105,83 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
 
   const handleSearch = (query: string) => {
     setSearchQuery(query)
+  }
+
+  // 在客户端挂载前返回简化版本，避免水合不匹配
+  if (!mounted) {
+    return (
+      <div className="flex flex-col sm:flex-row min-h-screen w-full">
+        <div className="hidden sm:block">
+          <Sidebar
+            navigationData={navigationData}
+            siteInfo={siteData}
+            className="sticky top-0 h-screen"
+          />
+        </div>
+        <main className="flex-1">
+          <div className="sticky top-0 bg-background/90 backdrop-blur-sm z-30 px-2 sm:px-4 py-2">
+            <div className="flex items-center gap-3">
+              <div className="flex-1">
+                <SearchBar
+                  navigationData={navigationData}
+                  onSearch={handleSearch}
+                  searchResults={[]}
+                  searchQuery={''}
+                />
+              </div>
+              <div className="flex items-center gap-1">
+                <div className="hidden sm:flex items-center gap-1">
+                  <ModeToggle />
+                </div>
+                <div className="flex sm:hidden items-center gap-1">
+                  <ModeToggle />
+                  <Button variant="ghost" size="icon">
+                    <Menu className="h-5 w-5" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="px-2 sm:px-4 pt-4 pb-2">
+            <SearchEngineBanner />
+          </div>
+          <div className="px-2 sm:px-4 py-3 sm:py-6">
+            <div className="space-y-6">
+              {navigationData.navigationItems.map((category) => (
+                <section key={category.id} id={category.id} className="scroll-m-16">
+                  <div className="space-y-4">
+                    <h2 className="text-base font-medium tracking-tight">
+                      {category.title}
+                    </h2>
+                    {category.subCategories && category.subCategories.length > 0 ? (
+                      category.subCategories.map((subCategory) => (
+                        <div key={subCategory.id} id={subCategory.id} className="space-y-3">
+                          <h3 className="text-sm font-medium text-muted-foreground">
+                            {subCategory.title}
+                          </h3>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                            {(subCategory.items || []).map((item) => (
+                              <NavigationCard key={item.id} item={item} />
+                            ))}
+                          </div>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        {(category.items || []).map((item) => (
+                          <NavigationCard key={item.id} item={item} />
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </section>
+              ))}
+            </div>
+          </div>
+          <Footer siteInfo={siteData} />
+        </main>
+      </div>
+    )
   }
 
   return (

@@ -1,17 +1,42 @@
 {
   "navigationItems": [
+    
     {
       "id": "1",
       "title": "常用推荐",
       "icon": "Star",
       "items": [
-        {
-          "id": "1_2",
-          "title": "Vercel",
-          "href": "https://vercel.com/",
-          "description": "Vercel 提供开发者工具和云基础设施，帮助构建、扩展和保护更快、更个性化的网络应用。",
-          "icon": "/assets/images/logos/vercel.png",
-          "enabled": true
+                    {
+              "id": "github",
+              "title": "GitHub",
+              "href": "https://github.com/",
+              "description": "全球最大的代码托管平台，开源项目的聚集地。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PGcgZmlsbD0iIzE4MTYxNiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNjQgNS4xMDNjLTMzLjM0NyAwLTYwLjM4OCAyNy4wMzUtNjAuMzg4IDYwLjM4OGMwIDI2LjY4MiAxNy4zMDMgNDkuMzE3IDQxLjI5NyA1Ny4zMDNjMy4wMTcuNTYgNC4xMjUtMS4zMSA0LjEyNS0yLjkwNWMwLTEuNDQtLjA1Ni02LjE5Ny0uMDgyLTExLjI0M2MtMTYuOCAzLjY1My0yMC4zNDUtNy4xMjUtMjAuMzQ1LTcuMTI1Yy0yLjc0Ny02Ljk4LTYuNzA1LTguODM2LTYuNzA1LTguODM2Yy01LjQ4LTMuNzQ4LjQxMy0zLjY3LjQxMy0zLjY3YzYuMDYzLjQyNSA5LjI1NyA2LjIyMyA5LjI1NyA2LjIyM2M1LjM4NiA5LjIzIDE0LjEyNyA2LjU2MiAxNy41NzMgNS4wMmMuNTQyLTMuOTAzIDIuMTA3LTYuNTY4IDMuODM0LTguMDc2Yy0xMy40MTMtMS41MjUtMjcuNTE0LTYuNzA0LTI3LjUxNC0yOS44NDNjMC02LjU5MyAyLjM2LTExLjk4IDYuMjIzLTE2LjIxYy0uNjI4LTEuNTItMi42OTUtNy42NjIuNTg0LTE1Ljk4YzAgMCA1LjA3LTEuNjIzIDE2LjYxIDYuMTlDNTMuNyAzNSA1OC44NjcgMzQuMzI3IDY0IDM0LjMwNGM1LjEzLjAyMyAxMC4zLjY5NCAxNS4xMjcgMi4wMzNjMTEuNTI2LTcuODEzIDE2LjU5LTYuMTkgMTYuNTktNi4xOWMzLjI4NyA4LjMxNyAxLjIyIDE0LjQ2LjU5MyAxNS45OGMzLjg3MiA0LjIzIDYuMjE1IDkuNjE3IDYuMjE1IDE2LjIxYzAgMjMuMTk0LTE0LjEyNyAyOC4zLTI3LjU3NCAyOS43OTZjMi4xNjcgMS44NzQgNC4wOTcgNS41NSA0LjA5NyAxMS4xODNjMCA4LjA4LS4wNyAxNC41ODMtLjA3IDE2LjU3MmMwIDEuNjA3IDEuMDg4IDMuNDkgNC4xNDggMi44OTdjMjMuOTgtNy45OTQgNDEuMjYzLTMwLjYyMiA0MS4yNjMtNTcuMjk0QzEyNC4zODggMzIuMTQgOTcuMzUgNS4xMDQgNjQgNS4xMDR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBkPSJNMjYuNDg0IDkxLjgwNmMtLjEzMy4zLS42MDUuMzktMS4wMzUuMTg1Yy0uNDQtLjE5Ni0uNjg1LS42MDUtLjU0My0uOTA2Yy4xMy0uMzEuNjAzLS4zOTUgMS4wNC0uMTg4Yy40NC4xOTcuNjkuNjEuNTM3Ljkxem0yLjQ0NiAyLjcyOWMtLjI4Ny4yNjctLjg1LjE0My0xLjIzMi0uMjhjLS4zOTYtLjQyLS40Ny0uOTgzLS4xNzctMS4yNTRjLjI5OC0uMjY2Ljg0NC0uMTQgMS4yNC4yOGMuMzk0LjQyNi40NzIuOTg0LjE3IDEuMjU1em0yLjM4MiAzLjQ3N2MtLjM3LjI1OC0uOTc2LjAxNy0xLjM1LS41MmMtLjM3LS41MzgtLjM3LTEuMTgzLjAxLTEuNDRjLjM3My0uMjU4Ljk3LS4wMjUgMS4zNS41MDdjLjM2OC41NDUuMzY4IDEuMTktLjAxIDEuNDUyem0zLjI2MSAzLjM2MWMtLjMzLjM2NS0xLjAzNi4yNjctMS41NTItLjIzYy0uNTI3LS40ODctLjY3NC0xLjE4LS4zNDMtMS41NDRjLjMzNi0uMzY2IDEuMDQ1LS4yNjQgMS41NjQuMjNjLjUyNy40ODYuNjg2IDEuMTguMzMzIDEuNTQzem00LjUgMS45NTFjLS4xNDcuNDczLS44MjUuNjg4LTEuNTEuNDg2Yy0uNjgzLS4yMDctMS4xMy0uNzYtLjk5LTEuMjM4Yy4xNC0uNDc3LjgyMy0uNyAxLjUxMi0uNDg1Yy42ODMuMjA2IDEuMTMuNzU2Ljk4OCAxLjIzN200Ljk0My4zNjFjLjAxNy40OTgtLjU2My45MS0xLjI4LjkyYy0uNzIzLjAxNy0xLjMwOC0uMzg3LTEuMzE1LS44NzdjMC0uNTAzLjU2OC0uOTEgMS4yOS0uOTI0Yy43MTctLjAxMyAxLjMwNi4zODcgMS4zMDYuODh6bTQuNTk4LS43ODJjLjA4Ni40ODUtLjQxMy45ODQtMS4xMjYgMS4xMTdjLS43LjEzLTEuMzUtLjE3Mi0xLjQ0LS42NTNjLS4wODYtLjQ5OC40MjItLjk5NyAxLjEyMi0xLjEyNmMuNzE0LS4xMjMgMS4zNTQuMTcgMS40NDQuNjYzem0wIDAiLz48L2c+PC9zdmc+",
+              "enabled": true
+            },
+            {
+              "id": "gitlab",
+              "title": "GitLab",
+              "href": "https://gitlab.com/",
+              "description": "完整的DevOps平台，提供代码托管、CI/CD等功能。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxwYXRoIGZpbGw9IiNlNTM5MzUiIGQ9Im0yOS41MzIgMTMuMDgzbC0uMDM3LS4xMDVsLTMuODExLTEwLjMyMmExIDEgMCAwIDAtLjM5Mi0uNDlhLjk4NS45ODUgMCAwIDAtMS4zOS4zMTZhMSAxIDAgMCAwLS4xMjIuMjhMMjEuMjA4IDEwSDEwLjc5Mkw4LjIyIDIuNzYyYTEuMDA0IDEuMDA0IDAgMCAwLTEuMjQ2LS43MjFhMSAxIDAgMCAwLS4yNjYuMTI0YTEgMSAwIDAgMC0uMzkyLjQ5MUwyLjUwNyAxMi45OGwtLjA0LjEwM2E3LjUyIDcuNTIgMCAwIDAgMi4zNDggOC40OTFsLjAxNS4wMTJsLjAzMi4wMjZsNS43OTcgNC41MTFsMi44NzYgMi4yNTdsMS43NDcgMS4zNzJhMS4xNDYgMS4xNDYgMCAwIDAgMS40MjQgMGwxLjc0Ny0xLjM3MmwyLjg3Ni0yLjI1N2w1LjgzOC00LjUzN2wuMDE2LS4wMTNhNy41MiA3LjUyIDAgMCAwIDIuMzUtOC40OVoiLz48cGF0aCBmaWxsPSIjZWY2YzAwIiBkPSJtMjkuNTMyIDEzLjA4M2wtLjAzNy0uMTA1YTEyLjYgMTIuNiAwIDAgMC01LjEyMyAyLjM5NGwtOC4zNjcgNi41N2w1LjMyNyA0LjE4MWw1LjgzOS00LjUzN2wuMDE2LS4wMTNhNy41MiA3LjUyIDAgMCAwIDIuMzQ1LTguNDkiLz48cGF0aCBmaWxsPSIjZjlhODI1IiBkPSJtMTAuNjU5IDI2LjEyM2wyLjg3NiAyLjI1N2wxLjc0NyAxLjM3MmExLjE0NiAxLjE0NiAwIDAgMCAxLjQyNCAwbDEuNzQ3LTEuMzcybDIuODc2LTIuMjU3TDE2IDIxLjk0M1oiLz48cGF0aCBmaWxsPSIjZWY2YzAwIiBkPSJNNy42MjggMTUuMzcxYTEyLjYgMTIuNiAwIDAgMC01LjEyLTIuMzlsLS4wNC4xMDJhNy41MiA3LjUyIDAgMCAwIDIuMzQ3IDguNDkxbC4wMTUuMDEybC4wMzIuMDI2bDUuNzk3IDQuNTExbDUuMzMxLTQuMThaIi8+PC9zdmc+",
+              "enabled": true
+            },
+            {
+              "id": "sourceforge",
+              "title": "SourceForge",
+              "href": "https://sourceforge.net/",
+              "description": "历史悠久的开源软件开发和分发平台。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxnIGZpbGw9ImN1cnJlbnRDb2xvciI+PHBhdGggZD0iTTkuMTMgOC40M2MwLTIuNjA0LS45MjktMy43OS0xLjQyLTQuMjRhLjE0LjE0IDAgMCAwLS4yMzIuMTIzYy4wOTUgMS40NzItMS43NjIgMS44NC0xLjc2MiA0LjE0NHYuMDEzYzAgMS40MDQgMS4wNjUgMi41NSAyLjM3NiAyLjU1czIuMzc3LTEuMTQ2IDIuMzc3LTIuNTV2LS4wMTNjMC0uNjU1LS4yNDYtMS4yODItLjQ5Mi0xLjc0NWMtLjA1NS0uMDk2LS4xOTEtLjA1NS0uMTc4LjAyN2MuNDUxIDEuOTktLjY2OSAzLjIxNy0uNjY5IDEuNjlaIi8+PHBhdGggZD0iTTYuMzAzIDEzLjkyM2EuMjUuMjUgMCAwIDEtLjE2NC0uMDY4TC4wNjEgNy43ODljLS4wODEtLjA4Mi0uMDgxLS4yMzIgMC0uMzI3bDYuNDItNi40MDdBLjMuMyAwIDAgMSA2LjYzIDFoMS44NDRjLjEwOSAwIC4xNzcuMDY4LjIwNC4xMzZhLjIyLjIyIDAgMCAxLS4wNTQuMjQ2TDIuNjAyIDcuNDA3YS4zMDQuMzA0IDAgMCAwIDAgLjQzNmw0Ljc2NiA0Ljc3MWMuMDgyLjA4Mi4wODIuMjMyIDAgLjMyOGwtLjkxNS45MjdhLjMuMyAwIDAgMS0uMTUuMDU0bTEuMjE2IDEuMDYzYS4yMi4yMiAwIDAgMS0uMTUtLjM4Mmw2LjAzNi02LjAyNWEuMzIuMzIgMCAwIDAgLjA5Ni0uMjE4YS4yNy4yNyAwIDAgMC0uMDk2LS4yMThsLTQuNzgtNC43NzFjLS4wODItLjA4Mi0uMDgyLS4yMzIgMC0uMzI3bC45MjktLjkyN2EuMjMuMjMgMCAwIDEgLjE2My0uMDY4Yy4wNjkgMCAuMTEuMDQuMTUuMDgxbDYuMDY1IDYuMDY3Yy4wNC4wNC4wNjguMDk1LjA2OC4xNjNhLjIzLjIzIDAgMCAxLS4wNjguMTY0bC02LjQyIDYuNDA3QS4yMy4yMyAwIDAgMSA5LjM1IDE1SDcuNTJ6Ii8+PC9nPjwvc3ZnPg==",
+              "enabled": true
+            },
+            {
+              "id": "1_2",
+              "title": "Vercel",
+              "href": "https://vercel.com/",
+              "description": "Vercel 提供开发者工具和云基础设施，帮助构建、扩展和保护更快、更个性化的网络应用。",
+              "icon": "/assets/images/logos/vercel.png",
+              "enabled": true
         },
         {
           "id": "1_1",
@@ -76,11 +101,78 @@
           "description": "Beautiful Screenshots and Mockups\nCusomizable, eye-catching presentation for any content",
           "icon": "/assets/img_1741747241014.png",
           "enabled": true
+        },
+        {
+          "id": "item-1754218579319",
+          "enabled": true,
+          "title": "DeepSeek - 探索未至之境",
+          "href": "https://chat.deepseek.com/",
+          "description": "Chat with DeepSeek AI – your intelligent assistant for coding, content creation, file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond. | 深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+          "icon": "/assets/favicon_1754218571142.svg"
+        },
+        {
+          "id": "1754229699374",
+          "title": "Lucide",
+          "href": "https://lucide.dev/",
+          "description": "Beautiful & consistent icon toolkit made by the community.",
+          "icon": "/assets/favicon_1754229702059.ico",
+          "enabled": true
         }
       ],
       "subCategories": [],
       "description": "",
       "enabled": true
+    },
+    {
+      "id": "2",
+      "title": "开源软件",
+      "icon": "Github",
+      "description": "优秀的开源软件项目",
+      "enabled": true,
+      "items": [],
+      "subCategories": [
+        {
+          "id": "1324213353",
+          "title": "开发工具",
+          "icon": "Code",
+          "description": "开源开发工具和IDE",
+          "enabled": true,
+          "items": [
+            {
+              "id": "vscode",
+              "title": "Visual Studio Code",
+              "href": "https://code.visualstudio.com/",
+              "description": "微软开源的轻量级代码编辑器，支持多种编程语言和丰富的插件生态。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IiMyMTk2ZjMiIGQ9Ik0xMS41IDExLjE5VjQuOEw3LjMgNy45OU0xLjE3IDYuMDdhLjYuNiAwIDAgMS0uMDEtLjgxTDIgNC40OGMuMTQtLjEzLjQ4LS4xOC43MyAwbDIuMzkgMS44M2w1LjU1LTUuMDljLjIyLS4yMi42MS0uMzIgMS4wNS0uMDhsMi44IDEuMzRjLjI1LjE1LjQ5LjM4LjQ5LjgxdjkuNDljMCAuMjgtLjIuNTgtLjQyLjdsLTMuMDggMS40OGMtLjIyLjA5LS42NCAwLS43OS0uMTRMNS4xMSA5LjY5bC0yLjM4IDEuODNjLS4yNy4xOC0uNi4xMy0uNzQgMGwtLjg0LS43N2MtLjIyLS4yMy0uMi0uNjEuMDQtLjg0bDIuMS0xLjkiLz48L3N2Zz4=",
+              "enabled": true
+            },
+            {
+              "id": "git",
+              "title": "Git",
+              "href": "https://git-scm.com/",
+              "description": "分布式版本控制系统，是现代软件开发的基础工具。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9IiNGMDNDMkUiIHJ4PSI2MCIvPjxnIGNsaXAtcGF0aD0idXJsKCNJY29uaWZ5SWQxOTg4YTU0NmMwYTQ4YWNjNDEpIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJtMjI0LjIyNSAxMTkuMDk0bC04Ny4zMTktODcuMzE5YTEyLjg3IDEyLjg3IDAgMCAwLTE0LjAzNS0yLjc5M2ExMi45IDEyLjkgMCAwIDAtNC4xNzcgMi43OTNMMTAwLjU2OSA0OS45bDIzIDIzYzUuMzUtMS44NzUgMTEuNDc1LS41OTQgMTUuNzM3IDMuNjY5YTE1LjMxIDE1LjMxIDAgMCAxIDMuNjMxIDE1LjgzMWwyMi4xNjkgMjIuMTY5YzUuMzYzLTEuODUgMTEuNTUtLjY1NyAxNS44MzEgMy42MzdhMTUuMzIgMTUuMzIgMCAwIDEgMy4zMjEgMTYuNzA2YTE1LjMzMyAxNS4zMzMgMCAwIDEtMjAuMDI5IDguMjkzYy0xLjg2LS43NzEtMy41NS0xLjktNC45NzMtMy4zMjRjLTQuNS00LjUtNS42MTItMTEuMTI1LTMuMzM3LTE2LjY2OWwtMjAuNjc1LTIwLjY3NXY1NC40MDdhMTUuNiAxNS42IDAgMCAxIDQuMDYyIDIuOWExNS4zMjYgMTUuMzI2IDAgMCAxLTIxLjY3NSAyMS42NzVhMTUuMzIgMTUuMzIgMCAwIDEtMy4zMjYtMTYuNzA0YTE1LjMgMTUuMyAwIDAgMSAzLjMyNi00Ljk3MWMxLjQ4MS0xLjQ3NSAzLjEyNS0yLjU5NCA1LjAxOS0zLjM0NHYtNTQuOTEzYTE1LjIgMTUuMiAwIDAgMS01LjAxOS0zLjM0M2ExNS4zMTUgMTUuMzE1IDAgMCAxLTMuMy0xNi43NTdMOTEuNjQ0IDU4LjgxNGwtNTkuODc1IDU5LjgxMmExMi44OCAxMi44OCAwIDAgMC0yLjc5NSAxNC4wNGExMi45IDEyLjkgMCAwIDAgMi43OTUgNC4xNzlsODcuMzI1IDg3LjMxMmExMi45IDEyLjkgMCAwIDAgNC4xNzcgMi43OTNhMTIuOSAxMi45IDAgMCAwIDkuODU4IDBhMTIuOSAxMi45IDAgMCAwIDQuMTc3LTIuNzkzbDg2LjkxOS04Ni43ODFhMTIuODggMTIuODggMCAwIDAgMy43NzYtOS4xMDlhMTIuODggMTIuODggMCAwIDAtMy43NzYtOS4xMSIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9Ikljb25pZnlJZDE5ODhhNTQ2YzBhNDhhY2M0MSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4IDI4aDIwMHYyMDBIMjh6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9nPjwvc3ZnPg==",
+              "enabled": true
+            },
+            {
+              "id": "docker",
+              "title": "Docker",
+              "href": "https://www.docker.com/",
+              "description": "容器化平台，简化应用程序的部署和管理。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzcuMTMiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjU2IDE4NSI+PHBhdGggZmlsbD0iIzIzOTZFRCIgZD0iTTI1MC43MTYgNzAuNDk3Yy01Ljc2NS00LTE4Ljk3Ni01LjUtMjkuMzA0LTMuNWMtMS4yLTEwLTYuNzI1LTE4Ljc0OS0xNi4zMzMtMjYuNDk5bC01LjUyNC00bC0zLjg0NCA1Ljc1Yy00LjgwMyA3LjUtNy4yMDUgMTgtNi40ODUgMjhjLjI0IDMuNDk5IDEuNDQxIDkuNzQ5IDUuMDQ0IDE1LjI0OWMtMy4zNjIgMi0xMC4zMjggNC41LTE5LjQ1NSA0LjVIMS4xNTVsLS40OCAyYy0xLjY4MiA5Ljk5OS0xLjY4MiA0MS4yNDggMTguMDE0IDY1LjI0N2MxNC44OTIgMTguMjQ5IDM2Ljk5IDI3LjQ5OSA2Ni4wNTMgMjcuNDk5YzYyLjkzIDAgMTA5LjUyOC0zMC4yNSAxMzEuMzg2LTg0Ljk5N2M4LjY0Ny4yNSAyNy4xNDIgMCAzNi41MS0xOC43NWMuMjQtLjUuNzItMS41IDIuNDAxLTUuMjQ5bC45NjEtMnpNMTM5Ljk4NiAwaC0yNi40MnYyNC45OTloMjYuNDJ6bTAgMjkuOTk5aC0yNi40MnYyNC45OTloMjYuNDJ6bS0zMS4yMjUgMGgtMjYuNDJ2MjQuOTk5aDI2LjQyem0tMzEuMjI1IDBINTEuMTE1djI0Ljk5OWgyNi40MjF6TTQ2LjMxMSA1OS45OThIMTkuODl2MjQuOTk5aDI2LjQyem0zMS4yMjUgMEg1MS4xMTV2MjQuOTk5aDI2LjQyMXptMzEuMjI1IDBoLTI2LjQydjI0Ljk5OWgyNi40MnptMzEuMjI2IDBoLTI2LjQyMnYyNC45OTloMjYuNDIyem0zMS4yMjUgMEgxNDQuNzl2MjQuOTk5aDI2LjQyMnoiLz48L3N2Zz4=",
+              "enabled": true
+            },
+            {
+              "id": "OpenStore",
+              "title": "OpenStore",
+              "href": "https://store.cereals.fun/",
+              "description": "cereals studio开源的跨平台自由应用商店",
+              "icon": "https://store.cereals.fun/YMCL-Icon.svg",
+              "enabled": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "9",
@@ -95,6 +187,14 @@
           "description": "",
           "enabled": true,
           "items": [
+                    {
+          "id": "item-1754218579319",
+          "enabled": true,
+          "title": "DeepSeek - 探索未至之境",
+          "href": "https://chat.deepseek.com/",
+          "description": "Chat with DeepSeek AI – your intelligent assistant for coding, content creation, file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond. | 深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+          "icon": "/assets/favicon_1754218571142.svg"
+        },
             {
               "id": "9_1",
               "title": "ChatGPT",
@@ -198,6 +298,14 @@
           "description": "站点图标",
           "enabled": true,
           "items": [
+                        {
+              "id": "kubernetes",
+              "title": "Kubernetes",
+              "href": "https://kubernetes.io/",
+              "description": "容器编排平台，用于自动化部署、扩展和管理容器化应用程序。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9IiMzMjZDRTUiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIuMTEiIGQ9Ik0xMjguMDczIDMwYTYuMDE0IDYuMDE0IDAgMCAwLTUuNTg5IDYuMzE0djEuNjA1Yy4xNTMgMS44MTcuNDI2IDMuNjE3Ljc4NSA1LjRhNTMgNTMgMCAwIDEgLjU2MyAxMC4zMjZhNi4yMyA2LjIzIDAgMCAxLTEuODYgMi45NDNsLS4xMjggMi40MDdjLTMuNDU2LjI5LTYuODg2LjgxOS0xMC4yNjUgMS41ODdhNzMuMSA3My4xIDAgMCAwLTM3LjE1MyAyMS4yMDRsLTIuMDQ3LTEuNDVhNC40MiA0LjQyIDAgMCAxLTMuMzctLjM0MmE1MyA1MyAwIDAgMS03LjY1NS02LjkxMmE0NyA0NyAwIDAgMC0zLjcyOS0zLjk2N2wtMS4yNjMtMS4wMDdhNi44MiA2LjgyIDAgMCAwLTMuOTUtMS40OTNhNS40NiA1LjQ2IDAgMCAwLTQuNTMxIDIuMDEzYTYuMDIgNi4wMiAwIDAgMCAxLjQgOC4zODhsMS4xNzcuOTM5YTQ3IDQ3IDAgMCAwIDQuNzEgMi43NTZhNDkgNDkgMCAwIDEgOC41MTYgNS45NzNhNi4zIDYuMyAwIDAgMSAxLjEzNCAzLjI3NmwxLjg2IDEuNzA3YTczLjU0IDczLjU0IDAgMCAwLTExLjU4NyA1MS4yNDhsLTIuMzkuNjgzYTcuOCA3LjggMCAwIDEtMi40NCAyLjQ1N2E1MyA1MyAwIDAgMS0xMC4xODggMS42ODFhNDggNDggMCAwIDAtNS40Ni40MjdsLTEuNTExLjM0MWgtLjE3YTUuNzE2IDUuNzE2IDAgMCAwLTQuNzkxIDYuOTI0YTUuNyA1LjcgMCAwIDAgMS40ODggMi43MzZhNS43MiA1LjcyIDAgMCAwIDUuODM2IDEuNDA3aC4xMTFsMS41MzYtLjE3YTQ2IDQ2IDAgMCAwIDUuMTAzLTEuODZhNTMgNTMgMCAwIDEgOS45MTUtMi45MDFhNi4yIDYuMiAwIDAgMSAzLjI2IDEuMTUxbDIuNTYtLjQyNmE3My45MiA3My45MiAwIDAgMCAzMi43NjYgNDAuOTgzbC0xLjA0MSAyLjE3NmE1LjcgNS43IDAgMCAxIC41MTIgMy4yMDhhNTUgNTUgMCAwIDEtNS4xNDYgOS4zMThhNDggNDggMCAwIDAtMy4wNTQgNC41NDhsLS43MjYgMS41MzZhNS43MiA1LjcyIDAgMCAwIDIuNDkgOC4wMTVhNS43IDUuNyAwIDAgMCAzLjA1Ny41MjdhNS43MiA1LjcyIDAgMCAwIDQuNzE5LTMuNjg3bC43MDctMS40NWE0NyA0NyAwIDAgMCAxLjYzOS01LjIwNWMxLjUxLTMuNzI5IDIuMzMtNy43MzEgNC4zOTQtMTAuMjA2YTQuNiA0LjYgMCAwIDEgMi40NDEtMS4xOTRsMS4yOC0yLjMzYTczLjU1IDczLjU1IDAgMCAwIDUyLjQ0My4xMjhsMS4xMzQgMi4xNzZhNC40NCA0LjQ0IDAgMCAxIDIuOTAyIDEuNzQ5YTU0IDU0IDAgMCAxIDMuODkxIDkuNTU3YTQ4IDQ4IDAgMCAwIDEuNjU1IDUuMjE0bC43MDggMS40NWE1LjcyIDUuNzIgMCAwIDAgNy43ODQgMy4xNTRhNS43IDUuNyAwIDAgMCAyLjM0NS0yLjAzNmE1LjcxIDUuNzEgMCAwIDAgLjEzNi01Ljk4MWwtLjc0Mi0xLjUzNmE0NyA0NyAwIDAgMC0zLjA1NS00LjUzMWMtMS45NjItMi44MzMtMy42NTItNS44NTQtNS4xMi05LjAxOWE0LjQzIDQuNDMgMCAwIDEgLjU4MS0zLjQxNGEyMCAyMCAwIDAgMS0uOTQ4LTIuMjk1YTc0LjAyIDc0LjAyIDAgMCAwIDMyLjYyMi00MS4xMjhsMi40MjMuNDI2YTQuNTMgNC41MyAwIDAgMSAzLjE4My0xLjE3N2MzLjM4Ny42NDggNi43MDYgMS43MDYgOS45MTUgMi45MDFhNDMgNDMgMCAwIDAgNS4xMDIgMS45NjNjLjQxLjExMSAxLjAwNy4yMDQgMS40NjguMzE1aC4xMTFhNS43MSA1LjcxIDAgMCAwIDUuODIzLTEuNDIxYTUuNyA1LjcgMCAwIDAgMS41MDQtMi43MjlhNS43IDUuNyAwIDAgMC0uMTUxLTMuMTExYTUuNzIgNS43MiAwIDAgMC00LjY0Mi0zLjgwNmwtMS42NTUtLjM5MmE0OCA0OCAwIDAgMC01LjQ2MS0uNDI3YTUyIDUyIDAgMCAxLTEwLjE4OC0xLjY4MWE2LjQgNi40IDAgMCAxLTIuNDU4LTIuNDU3bC0yLjMwNC0uNjgzYTczLjggNzMuOCAwIDAgMC0xMS44MjYtNTEuMTM3bDIuMDE0LTEuODZhNC41IDQuNSAwIDAgMSAxLjA1OC0zLjIyNmE1My42IDUzLjYgMCAwIDEgOC40NDctNS45MzlhNDggNDggMCAwIDAgNC43MS0yLjc1NmwxLjI0Ni0xLjAwN2E1LjcyIDUuNzIgMCAwIDAgMS40NTYtOC40MmE1LjcxNiA1LjcxNiAwIDAgMC04LjUzLS40NjNsLTEuMjYyIDEuMDA3YTQ4IDQ4IDAgMCAwLTMuNzI5IDMuOTY4YTUzLjMgNTMuMyAwIDAgMS03LjQ1IDcuMDIzYTYuMyA2LjMgMCAwIDEtMy40NDcuMzc1bC0yLjE1OSAxLjUzNmE3NC41NSA3NC41NSAwIDAgMC00Ny4yMjktMjIuNzgzYzAtLjg1My0uMTExLTIuMTMzLS4xMjgtMi41MzRhNC40OCA0LjQ4IDAgMCAxLTEuODYtMi44MzNhNTMgNTMgMCAwIDEgLjY0OC0xMC4zYy4zNjctMS43OTEuNjIzLTMuNTgzLjc4NS01LjR2LTEuNzA3YTYuMDEgNi4wMSAwIDAgMC01LjU4OS02LjMxNHptLTcuMTE3IDQ0LjA4bC0xLjcwNiAyOS44MDZoLS4xMjhjLS4wODYgMS44NDMtMS4xNjkgMy40MTMtMi44MzMgNC4zMDFjLTEuNjY0Ljg4Ny0zLjYzNS42MjMtNS4xMi0uNDYxTDg2LjcyMiA5MC40MDRhNTguNTQgNTguNTQgMCAwIDEgMjguMTg0LTE1LjM1YTYwIDYwIDAgMCAxIDYuMDMzLS45NzN6bTE0LjIzMyAwYTU5LjEgNTkuMSAwIDAgMSAzNC4wNDYgMTYuNDE4bC0yNC4yMTYgMTcuMjExYTUuMDIgNS4wMiAwIDAgMS01LjI3NC42MTRhNS4wMiA1LjAyIDAgMCAxLTIuODY3LTQuNDcxem0tNTcuMzQgMjcuNTM2bDIyLjM1NSAxOS45NXYuMTI4YTUuMDIgNS4wMiAwIDAgMSAxLjU4NyA0Ljg5OGE1LjAyIDUuMDIgMCAwIDEtMy41NTggMy43MTJ2LjA4NWwtMjguNjg3IDguMjUxYTU4LjUzIDU4LjUzIDAgMCAxIDguMzEtMzcuMDMyem0xMDAuMjg2IDBhNTkuNTggNTkuNTggMCAwIDEgOC41NSAzNi45MjJsLTI4LjczLTguMjc3di0uMTExYTQuOTYgNC45NiAwIDAgMS0zLjU1OS0zLjcxMmE1LjA1IDUuMDUgMCAwIDEgMS41ODgtNC44OTdsMjIuMTg1LTE5Ljg1NnptLTU0LjY0NSAyMS41MDNoOS4xNDhsNS41ODkgNy4wOTlsLTIuMDMxIDguODc1bC04LjIxNyAzLjk1bC04LjIzNS0zLjk1bC0xLjkzNy04Ljg3NXptMjkuMzAyIDI0LjIxNmE1LjMgNS4zIDAgMCAxIDEuMTUyIDBsMjkuNTg0IDQuOTkyYy00LjI2NyAxMi4yODctMTIuNjg5IDIyLjc4My0yMy42NzkgMjkuODA1bC0xMS40MzQtMjcuNjhhNSA1IDAgMCAxLS4zODMtMi4zNTRhNS4wNCA1LjA0IDAgMCAxIDQuNzI2LTQuNjM1em0tNDkuNjg3LjEyOGE1LjAzIDUuMDMgMCAwIDEgNC4xMyAyLjI4N2E0Ljk5IDQuOTkgMCAwIDEgLjQwMSA0LjY5M3YuMTExbC0xMS4zNjUgMjcuNDU5YTU4LjcgNTguNyAwIDAgMS0yMy41MzQtMjkuNDk4bDI5LjMyNy00Ljk3NXEuNDg5LS4wNTEuOTkgMHptMjQuNzggMTEuOTQ2YTUuMDQgNS4wNCAwIDAgMSA0LjU4MiAyLjYyOGguMTExbDE0LjQ1NSAyNi4wODVsLTUuNzc3IDEuNzA3YTU4LjgzIDU4LjgzIDAgMCAxLTMyLjA2Ny0xLjY1NWwxNC41MDYtMjYuMDg1Yy44NzktMS41MzYgMi41LTIuNDc1IDQuMjY3LTIuNTE4eiIvPjwvZz48L3N2Zz4=",
+              "enabled": true
+            },
             {
               "id": "1750831228317",
               "title": "lucide",
@@ -338,6 +446,7 @@
               "icon": "/assets/img_1737530421138.png",
               "enabled": true
             },
+            
             {
               "id": "1752662613676",
               "title": "Kiro",
@@ -352,6 +461,23 @@
               "href": "https://www.anthropic.com/claude-code",
               "description": "Unleash Claude’s raw power directly in your terminal. Search million-line codebases instantly. Turn hours-long workflows into a single command. Your tools. Your workflow. Your codebase, evolving at thought speed.",
               "icon": "/assets/img_1752662771107.png",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "47206329-6eed-422c-bdc9-c7cec1eb5190",
+          "title": "域名注册",
+          "icon": "Files",
+          "description": "",
+          "enabled": true,
+          "items": [
+            {
+              "id": "1754295485849",
+              "title": "namecheap",
+              "href": "https://www.namecheap.com/",
+              "description": "Register domain names at Namecheap. Buy cheap domain names and enjoy 24/7 support. With over 18 million domains under management, you know you’re in good hands.",
+              "icon": "/assets/favicon_1754295511938.ico",
               "enabled": true
             }
           ]
@@ -448,11 +574,28 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "0ed6d8b1-effe-4535-8cde-60ec38f9c96c",
+          "title": "AI 检测工具",
+          "icon": "BookOpen",
+          "description": "",
+          "enabled": true,
+          "items": [
+            {
+              "id": "1754573112532",
+              "title": "腾讯朱雀AI文本检测",
+              "href": "https://matrix.tencent.com/ai-detect/",
+              "description": "腾讯朱雀AI文本检测基于多种先进的人工智能模型，构造数百万级别的数据进行训练，能够识别出人类和AI的书写模式。该系统不仅具备优秀的英文检测能力，在处理中文数据方面表现尤为出色。\n",
+              "icon": "/assets/img_1754573290976.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
     {
-      "id": "2",
+      "id": "14086",
       "title": "常用工具",
       "icon": "Laptop",
       "items": [],
@@ -804,6 +947,33 @@
               "href": "https://unsplash.com/",
               "description": "免费高清图片",
               "icon": "/assets/images/logos/unsplash.png",
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "452389573092",
+      "title": "软件源",
+      "icon": "Link",
+      "description": "优秀的开源软件项目",
+      "enabled": true,
+      "items": [],
+      "subCategories": [
+        {
+          "id": "1324213353",
+          "title": "OpenStore",
+          "icon": "Code",
+          "description": "开源开发工具和IDE",
+          "enabled": true,
+          "items": [
+            {
+              "id": "vscode",
+              "title": "Visual Studio Code",
+              "href": "https://code.visualstudio.com/",
+              "description": "微软开源的轻量级代码编辑器，支持多种编程语言和丰富的插件生态。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IiMyMTk2ZjMiIGQ9Ik0xMS41IDExLjE5VjQuOEw3LjMgNy45OU0xLjE3IDYuMDdhLjYuNiAwIDAgMS0uMDEtLjgxTDIgNC40OGMuMTQtLjEzLjQ4LS4xOC43MyAwbDIuMzkgMS44M2w1LjU1LTUuMDljLjIyLS4yMi42MS0uMzIgMS4wNS0uMDhsMi44IDEuMzRjLjI1LjE1LjQ5LjM4LjQ5LjgxdjkuNDljMCAuMjgtLjIuNTgtLjQyLjdsLTMuMDggMS40OGMtLjIyLjA5LS42NCAwLS43OS0uMTRMNS4xMSA5LjY5bC0yLjM4IDEuODNjLS4yNy4xOC0uNi4xMy0uNzQgMGwtLjg0LS43N2MtLjIyLS4yMy0uMi0uNjEuMDQtLjg0bDIuMS0xLjkiLz48L3N2Zz4=",
               "enabled": true
             }
           ]
