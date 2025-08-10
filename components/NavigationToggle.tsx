@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface NavigationToggleProps {
   icon?: string
@@ -10,6 +10,25 @@ interface NavigationToggleProps {
 
 export function NavigationToggle({ icon, title, children }: NavigationToggleProps) {
   const [isExpanded, setIsExpanded] = useState(false)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return (
+      <div>
+        <div className="flex items-center w-full">
+          <div className="menu-title">
+            {icon && <i className={icon}></i>}
+            <span>{title}</span>
+          </div>
+          <i className="fas fa-angle-right menu-arrow"></i>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div>
@@ -26,4 +45,4 @@ export function NavigationToggle({ icon, title, children }: NavigationToggleProp
       {isExpanded && children}
     </div>
   )
-} 
+}

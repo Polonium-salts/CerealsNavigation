@@ -1,6 +1,5 @@
-// 移除edge runtime，使用默认的Node.js runtime
-// export const runtime = 'edge'
-export const dynamic = 'force-static'
+export const runtime = 'edge'
+export const dynamic = 'force-dynamic'
 export const revalidate = 3600 // Revalidate every hour
 
 import { NavigationContent } from '@/components/navigation-content'

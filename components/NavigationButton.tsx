@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 interface NavigationButtonProps {
@@ -15,6 +15,11 @@ interface NavigationButtonProps {
 
 export function NavigationButton({ id, title, icon, items }: NavigationButtonProps) {
   const [isExpanded, setIsExpanded] = useState(false)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   if (!items?.length) {
     return (
@@ -22,6 +27,20 @@ export function NavigationButton({ id, title, icon, items }: NavigationButtonPro
         <i className={icon}></i>
         <span>{title}</span>
       </Link>
+    )
+  }
+
+  if (!mounted) {
+    return (
+      <div>
+        <div className="flex items-center w-full">
+          <div className="menu-title">
+            <i className={icon}></i>
+            <span>{title}</span>
+          </div>
+          <i className="fas fa-angle-right menu-arrow"></i>
+        </div>
+      </div>
     )
   }
 
@@ -50,4 +69,4 @@ export function NavigationButton({ id, title, icon, items }: NavigationButtonPro
       )}
     </div>
   )
-} 
+}
