@@ -20,7 +20,7 @@ const searchEngines: SearchEngine[] = [
     id: 'google',
     name: 'Google',
     icon: <Globe className="h-4 w-4" />,
-    url: 'https://www.google.com/search?q=',
+    url: 'https://google.bian666.cf/',
     placeholder: '使用 Google 搜索...',
     color: 'bg-blue-500 hover:bg-blue-600'
   },
