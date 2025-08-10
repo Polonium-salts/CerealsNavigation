@@ -51,7 +51,7 @@ export default function RootLayout({
             position: 'fixed',
             width: '100vw',
             height: '100vh',
-            backgroundImage: `url('https://pub-80c5aa3f3a7a4ea28903ff25058fced2.r2.dev/115795269_p0_master1200.jpg')`,
+            backgroundImage: `url('https://github.com/Polonium-salts/CerealsNavigation/blob/main/115795269_p0_master1200.jpg?raw=true')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             zIndex: -10,

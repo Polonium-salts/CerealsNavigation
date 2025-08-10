@@ -195,6 +195,14 @@
           "description": "Chat with DeepSeek AI – your intelligent assistant for coding, content creation, file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond. | 深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
           "icon": "/assets/favicon_1754218571142.svg"
         },
+                    {
+              "id": "1324532213",
+              "title": "扣子",
+              "href": "https://www.coze.cn/space-preview?utm_campaign=0000&utm_content=home&utm_id=0&utm_medium=sem&utm_source=bing_pz&utm_source_platform=pc&utm_term=coze_bing_pz_pc_czkj_beijing",
+              "description": "扣子（Coze）是一个基于大模型的智能助手，它可以帮助用户完成各种任务，如写邮件、写代码、写文章等。",
+              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTkuMzY2IDEyLjA5NmEuNjEuNjEgMCAwIDAtLjYwOC42MDh2MS4yMThhLjYwOS42MDkgMCAxIDAgMS4yMTcgMHYtMS4yMThhLjYxLjYxIDAgMCAwLS42MDktLjYwOG0uOCAzLjQ1M2EuNjA1LjYwNSAwIDAgMSAwLS44NmEuNjA1LjYwNSAwIDAgMSAuODU5IDBhMS41MiAxLjUyIDAgMCAwIDIuMTQ5IDBhLjYwNS42MDUgMCAwIDEgLjg1OSAwYS42MDUuNjA1IDAgMCAxIDAgLjg2YTIuNzMgMi43MyAwIDAgMS0zLjg2NyAwbTQuMDYyLTIuMjRhLjYxLjYxIDAgMSAxIC42MDkuNjA5YS42MDYuNjA2IDAgMCAxLS42MS0uNjA5ek0zLjAyMyAwQTMuMDI0IDMuMDI0IDAgMCAwIDAgMy4wMjN2MTcuOTU0QTMuMDI0IDMuMDI0IDAgMCAwIDMuMDIzIDI0aDE3Ljk1NEEzLjAyNCAzLjAyNCAwIDAgMCAyNCAyMC45NzdWMy4wMjNBMy4wMjQgMy4wMjQgMCAwIDAgMjAuOTc3IDBaTTEyLjEgMy43OGguMDA0YTYuMjg3IDYuMjg3IDAgMCAxIDYuMjgzIDYuMjg2djIuNjM1aDEuNTA4YzEuNzMgMCAyLjEyIDIuNDI2LjQ3NiAyLjk3bC0xLjk4NC42NjN2MS4xMzdhMS41MTMgMS41MTMgMCAwIDEtMi4xOSAxLjM1M2wtMS4xMDEtLjU0OWMtLjA1Mi0uMDI0LS4xMTUgMC0uMTMxLjA1NWMtLjg5MiAyLjc4NS00LjgzNSAyLjc4NS01LjcyNyAwYS4wOTUuMDk1IDAgMCAwLS4xMy0uMDU1bC0xLjEwMi41NWExLjUxMyAxLjUxMyAwIDAgMS0yLjE5LTEuMzU0di0xLjEzOWwtMS45ODQtLjY2Yy0xLjY0Ny0uNTQxLTEuMjU0LTIuOTcuNDc3LTIuOTdoMS41MDd2LTIuNjM2QTYuMjg1IDYuMjg1IDAgMCAxIDEyLjEgMy43OCIvPjwvc3ZnPg==",
+              "enabled": true
+            },
             {
               "id": "9_1",
               "title": "ChatGPT",
@@ -970,10 +978,10 @@
           "items": [
             {
               "id": "vscode",
-              "title": "Visual Studio Code",
+              "title": "CerealsNavigation",
               "href": "https://code.visualstudio.com/",
               "description": "微软开源的轻量级代码编辑器，支持多种编程语言和丰富的插件生态。",
-              "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IiMyMTk2ZjMiIGQ9Ik0xMS41IDExLjE5VjQuOEw3LjMgNy45OU0xLjE3IDYuMDdhLjYuNiAwIDAgMS0uMDEtLjgxTDIgNC40OGMuMTQtLjEzLjQ4LS4xOC43MyAwbDIuMzkgMS44M2w1LjU1LTUuMDljLjIyLS4yMi42MS0uMzIgMS4wNS0uMDhsMi44IDEuMzRjLjI1LjE1LjQ5LjM4LjQ5LjgxdjkuNDljMCAuMjgtLjIuNTgtLjQyLjdsLTMuMDggMS40OGMtLjIyLjA5LS42NCAwLS43OS0uMTRMNS4xMSA5LjY5bC0yLjM4IDEuODNjLS4yNy4xOC0uNi4xMy0uNzQgMGwtLjg0LS43N2MtLjIyLS4yMy0uMi0uNjEuMDQtLjg0bDIuMS0xLjkiLz48L3N2Zz4=",
+              "icon": "https://n.cereals.fun/_next/image?url=%2Fassets%2Fimages%2Falogo.png&w=48&q=75",
               "enabled": true
             }
           ]
