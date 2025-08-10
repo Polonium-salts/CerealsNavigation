@@ -16,11 +16,19 @@ interface SearchEngine {
 }
 
 const searchEngines: SearchEngine[] = [
+    {
+    id: 'bing',
+    name: 'Bing',
+    icon: <Zap className="h-4 w-4" />,
+    url: 'https://www.bing.com/search?q=',
+    placeholder: '使用 Bing 搜索...',
+    color: 'bg-green-500 hover:bg-green-600'
+  },
   {
     id: 'google',
     name: 'Google',
     icon: <Globe className="h-4 w-4" />,
-    url: 'https://google.bian666.cf/',
+    url: 'https://www.google.com/search?q=',
     placeholder: '使用 Google 搜索...',
     color: 'bg-blue-500 hover:bg-blue-600'
   },
@@ -32,14 +40,7 @@ const searchEngines: SearchEngine[] = [
     placeholder: '使用百度搜索...',
     color: 'bg-blue-600 hover:bg-blue-700'
   },
-  {
-    id: 'bing',
-    name: 'Bing',
-    icon: <Zap className="h-4 w-4" />,
-    url: 'https://www.bing.com/search?q=',
-    placeholder: '使用 Bing 搜索...',
-    color: 'bg-green-500 hover:bg-green-600'
-  },
+
   {
     id: 'duckduckgo',
     name: 'DuckDuckGo',
