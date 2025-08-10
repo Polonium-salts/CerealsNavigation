@@ -1,5 +1,36 @@
 # 部署修复说明
 
+## 最新修复 (2024-12-19)
+
+### 问题描述
+- Vercel 部署的网站出现 `TypeError: Cannot read properties of undefined (reading 'call')` 错误
+- 同时出现 `TypeError: Cannot read properties of null (reading 'default')` 错误
+- 这些错误导致网站在生产环境中无法正常运行
+
+### 修复措施
+1. **移除 Edge Runtime 配置**
+   - 从 `app/page.tsx` 中移除了 `export const runtime = 'edge'`
+   - 从 `app/api/home/navigation/route.ts` 中移除了 `export const runtime = 'edge'`
+   - 从 `app/api/home/site/route.ts` 中移除了 `export const runtime = 'edge'`
+
+2. **修复 Monaco Editor SSR 问题**
+   - 创建了 `components/ui/json-editor-wrapper.tsx` 文件
+   - 使用 `dynamic` 导入禁用 Monaco Editor 的 SSR
+   - 更新 `app/admin/data/page.tsx` 使用新的包装组件
+
+3. **服务器重启**
+   - 重启开发服务器清除模块缓存
+   - 确认所有 TypeError 错误已解决
+
+### 修复结果
+- ✅ `TypeError: Cannot read properties of undefined (reading 'call')` 已解决
+- ✅ `TypeError: Cannot read properties of null (reading 'default')` 已解决
+- ✅ 网站现在可以正常运行
+- ⚠️ 仍有 `images.domains` 配置弃用警告（非严重问题）
+
+### 技术说明
+问题的根本原因是 Edge Runtime 与某些客户端组件和库（如 Monaco Editor）不兼容，导致模块解析失败。通过移除 Edge Runtime 配置并正确处理 SSR 问题，成功解决了部署错误。
+
 ## 问题描述
 部署时出现多个配置相关的错误：
 1. "build output directory not found" 错误

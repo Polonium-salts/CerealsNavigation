@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server'
 import siteData from '@/navsphere/content/site.json'
 
-export const runtime = 'edge'
-
 export async function GET() {
   try {
     return NextResponse.json(siteData)
