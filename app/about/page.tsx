@@ -77,12 +77,12 @@ export default function AboutPage() {
           {/* 文本展示框黑色文本有复制按钮 */}
           <div className="bg-black p-6 rounded-lg shadow-md">
             <p className="text-lg text-white">
-              软件源地址：https://github.com/CerealsNavigation/CerealsNavigation
+              软件源地址：https://pds.cereals.fun/app-source.json
             </p>
           </div>
           {/* 复制按钮 */}
           <Button className="mt-4" onClick={() => {
-            navigator.clipboard.writeText('https://github.com/CerealsNavigation/CerealsNavigation')
+            navigator.clipboard.writeText('https://pds.cereals.fun/app-source.json')
           }}>复制</Button>
         </div>
       </div>

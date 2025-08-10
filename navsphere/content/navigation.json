@@ -977,9 +977,9 @@
           "enabled": true,
           "items": [
             {
-              "id": "vscode",
+              "id": "32554765754",
               "title": "CerealsNavigation",
-              "href": "https://code.visualstudio.com/",
+              "href": "https://n.cereals.fun/about",
               "description": "微软开源的轻量级代码编辑器，支持多种编程语言和丰富的插件生态。",
               "icon": "https://n.cereals.fun/_next/image?url=%2Fassets%2Fimages%2Falogo.png&w=48&q=75",
               "enabled": true
