@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   description: 'A modern navigation platform',
   icons: {
     icon: '/favicon.ico'
+  },
+  verification: {
+    other: {
+      'msvalidate.01': 'BDC08593260C3113DD0D0FC4AEDCDD26'
+    }
   }
 }
 
@@ -27,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
+        <meta name="msvalidate.01" content="BDC08593260C3113DD0D0FC4AEDCDD26" />
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
