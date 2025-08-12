@@ -22,6 +22,14 @@
               "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxwYXRoIGZpbGw9IiNlNTM5MzUiIGQ9Im0yOS41MzIgMTMuMDgzbC0uMDM3LS4xMDVsLTMuODExLTEwLjMyMmExIDEgMCAwIDAtLjM5Mi0uNDlhLjk4NS45ODUgMCAwIDAtMS4zOS4zMTZhMSAxIDAgMCAwLS4xMjIuMjhMMjEuMjA4IDEwSDEwLjc5Mkw4LjIyIDIuNzYyYTEuMDA0IDEuMDA0IDAgMCAwLTEuMjQ2LS43MjFhMSAxIDAgMCAwLS4yNjYuMTI0YTEgMSAwIDAgMC0uMzkyLjQ5MUwyLjUwNyAxMi45OGwtLjA0LjEwM2E3LjUyIDcuNTIgMCAwIDAgMi4zNDggOC40OTFsLjAxNS4wMTJsLjAzMi4wMjZsNS43OTcgNC41MTFsMi44NzYgMi4yNTdsMS43NDcgMS4zNzJhMS4xNDYgMS4xNDYgMCAwIDAgMS40MjQgMGwxLjc0Ny0xLjM3MmwyLjg3Ni0yLjI1N2w1LjgzOC00LjUzN2wuMDE2LS4wMTNhNy41MiA3LjUyIDAgMCAwIDIuMzUtOC40OVoiLz48cGF0aCBmaWxsPSIjZWY2YzAwIiBkPSJtMjkuNTMyIDEzLjA4M2wtLjAzNy0uMTA1YTEyLjYgMTIuNiAwIDAgMC01LjEyMyAyLjM5NGwtOC4zNjcgNi41N2w1LjMyNyA0LjE4MWw1LjgzOS00LjUzN2wuMDE2LS4wMTNhNy41MiA3LjUyIDAgMCAwIDIuMzQ1LTguNDkiLz48cGF0aCBmaWxsPSIjZjlhODI1IiBkPSJtMTAuNjU5IDI2LjEyM2wyLjg3NiAyLjI1N2wxLjc0NyAxLjM3MmExLjE0NiAxLjE0NiAwIDAgMCAxLjQyNCAwbDEuNzQ3LTEuMzcybDIuODc2LTIuMjU3TDE2IDIxLjk0M1oiLz48cGF0aCBmaWxsPSIjZWY2YzAwIiBkPSJNNy42MjggMTUuMzcxYTEyLjYgMTIuNiAwIDAgMC01LjEyLTIuMzlsLS4wNC4xMDJhNy41MiA3LjUyIDAgMCAwIDIuMzQ3IDguNDkxbC4wMTUuMDEybC4wMzIuMDI2bDUuNzk3IDQuNTExbDUuMzMxLTQuMThaIi8+PC9zdmc+",
               "enabled": true
             },
+                        {
+              "id": "AB Download Manager",
+              "title": "AB Download Manager",
+              "href": "https://abdownloadmanager.com/",
+              "description": "AB Download Manager是一个功能强大的下载管理工具，它可以帮助用户下载、管理和组织他们的下载文件。",
+              "icon": "https://abdownloadmanager.com/assets/app_icon_with_background-DacKa0NY.svg",
+              "enabled": true
+            },
             {
               "id": "sourceforge",
               "title": "SourceForge",
@@ -146,6 +154,14 @@
               "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNDggNDgiPjxjaXJjbGUgY3g9IjI0IiBjeT0iMjQiIHI9IjExLjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzA1OTY2OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDU5NjY5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0zLjMgMTguMUMyLjggMjAgMi41IDIyIDIuNSAyNHMuMyA0IC44IDUuOGgwYy4zIDAgMi4yLS42IDIuMy0yLjZjLjEtLjYgMC0yLjQgMC0zLjJjLS4xLS45LjEtMi41IDAtMy4xYy0uMi0yLjEtMi0yLjgtMi4zLTIuOG00MS40LjFjLjUgMS45LjggMy44LjggNS45YzAgMi0uMyA0LS44IDUuOGgwYy0uMyAwLTIuMi0uNi0yLjMtMi42Yy0uMS0uNiAwLTIuNCAwLTMuMmMuMS0uOS0uMS0yLjUgMC0zLjFjLjItMi4yIDItMi44IDIuMy0yLjhNMjkuOCAzLjNDMjggMi44IDI2IDIuNSAyNCAyLjVzLTQgLjMtNS44LjhoMGMwIC4zLjYgMi4yIDIuNiAyLjNjLjYuMSAyLjQgMCAzLjIgMGMuOS0uMSAyLjUuMSAzLjEgMGMyLjEtLjIgMi43LTIgMi43LTIuM20wIDQxLjRjLTEuOS41LTMuOC44LTUuOS44Yy0yIDAtNC0uMy01LjgtLjhoMGMwLS4zLjYtMi4yIDIuNi0yLjNjLjYtLjEgMi40IDAgMy4yIDBjLjkuMSAyLjUtLjEgMy4xIDBjMi4yLjIgMi44IDIgMi44IDIuM00xMy41IDUuMmMtMS43LjktMy4zIDIuMS00LjcgMy42Yy0xLjQgMS40LTIuNiAzLTMuNSA0LjdoMGMuMi4yIDIgMS4xIDMuNS0uMmMuNS0uNCAxLjctMS42IDIuMy0yLjNjLjYtLjYgMS44LTEuNyAyLjItMi4yYzEuMy0xLjYuNC0zLjMuMi0zLjZtMjkuMiAyOS4zYy0uOSAxLjctMi4xIDMuMy0zLjYgNC43Yy0xLjQgMS40LTMgMi42LTQuNyAzLjVoMGMtLjItLjItMS4xLTIgLjItMy41Yy40LS41IDEuNi0xLjcgMi4zLTIuM2MuNi0uNiAxLjctMS44IDIuMi0yLjJjMS43LTEuMiAzLjQtLjQgMy42LS4yTTM0LjUgNS4yYzEuNy45IDMuMyAyLjEgNC43IDMuNmMxLjQgMS40IDIuNiAzIDMuNSA0LjdoMGMtLjIuMi0yIDEuMS0zLjUtLjJjLS41LS40LTEuNy0xLjYtMi4zLTIuM2MtLjYtLjYtMS44LTEuNy0yLjItMi4yYy0xLjMtMS42LS40LTMuMy0uMi0zLjZNNS4zIDM0LjVjLjkgMS43IDIuMSAzLjMgMy42IDQuN2MxLjQgMS40IDMgMi42IDQuNyAzLjVoMGMuMi0uMiAxLjEtMi0uMi0zLjVjLS40LS41LTEuNi0xLjctMi4zLTIuM2MtLjYtLjYtMS43LTEuOC0yLjItMi4yYy0xLjctMS4zLTMuNC0uNC0zLjYtLjIiLz48L3N2Zz4=",
               "enabled": true
             },
+                                    {
+              "id": "AB Download Manager",
+              "title": "AB Download Manager",
+              "href": "https://abdownloadmanager.com/",
+              "description": "AB Download Manager是一个功能强大的下载管理工具，它可以帮助用户下载、管理和组织他们的下载文件。",
+              "icon": "https://abdownloadmanager.com/assets/app_icon_with_background-DacKa0NY.svg",
+              "enabled": true
+            },
             {
               "id": "vscode",
               "title": "Visual Studio Code",
@@ -217,6 +233,14 @@
               "href": "https://chat.openai.com/",
               "description": "OpenAI开发的人工智能聊天机器人程序。",
               "icon": "/assets/images/logos/chatgpt.png",
+              "enabled": true
+            },
+                        {
+              "id": "kimi",
+              "title": "Kimi",
+              "href": "https://www.kimi.com/",
+              "description": "Kimi是一个基于大模型的智能助手，它可以帮助用户完成各种任务，如写邮件、写代码、写文章等。",
+              "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/kimi-color.png",
               "enabled": true
             },
             {
