@@ -1,46 +1,46 @@
-# NavSphere
-
+# CerealsNavigation
 
 <p align="center">
   <strong>现代化导航管理平台 | Modern Navigation Management Platform</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/tianyaxiang/NavSphere/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/tianyaxiang/NavSphere?style=flat-square"></a>
+  <a href="https://github.com/your-username/CerealsNavigation/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.com/your-username/CerealsNavigation/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.com/your-username/CerealsNavigation/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.com/your-username/CerealsNavigation/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/your-username/CerealsNavigation?style=flat-square"></a>
 </p>
 
 <p align="center">
-  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftianyaxiang%2FNavSphere&env=GITHUB_ID,GITHUB_SECRET,GITHUB_OWNER,GITHUB_REPO,GITHUB_BRANCH,NEXTAUTH_URL,NEXT_PUBLIC_API_URL&envDescription=GitHub%20OAuth%20%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E9%85%8D%E7%BD%AE&envLink=https%3A%2F%2Fgithub.com%2Ftianyaxiang%2FNavSphere%23%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE&project-name=navsphere&repository-name=navsphere">
+  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2FCerealsNavigation&env=GITHUB_ID,GITHUB_SECRET,GITHUB_OWNER,GITHUB_REPO,GITHUB_BRANCH,NEXTAUTH_URL,NEXT_PUBLIC_API_URL&envDescription=GitHub%20OAuth%20%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E9%85%8D%E7%BD%AE&envLink=https%3A%2F%2Fgithub.com%2Fyour-username%2FCerealsNavigation%23%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE&project-name=cerealsnavigation&repository-name=cerealsnavigation">
     <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
   </a>
 </p>
 
 ## 📖 项目简介
 
-NavSphere 是一个基于 Next.js 14 构建的现代化导航管理平台，专为个人和团队打造的书签管理和导航门户解决方案。通过 GitHub 作为数据存储后端，提供安全、可靠的导航数据管理体验。<a href="https://mp.weixin.qq.com/s/90LUmKilfLZfc5L63Ej3Sg" target="_blank">[手把手快速部署教程]</a>
+CerealsNavigation 是一个基于 Next.js 14 构建的现代化导航管理平台，专为个人和团队打造的书签管理和导航门户解决方案。通过 GitHub 作为数据存储后端，提供安全、可靠的导航数据管理体验。
 
 <p align="center">
-  <img src="doc/n.png" alt="NavSphere Logo" />
+  <img src="doc/n.png" alt="CerealsNavigation Logo" />
 </p>
 <p align="center">
-  <img src="doc/b.png" alt="NavSphere Logo" />
+  <img src="doc/b.png" alt="CerealsNavigation Screenshot" />
 </p>
 
 ## ✨ 核心特性
 
 - 🚀 **现代技术栈**: Next.js 14 + React 18 + TypeScript + Tailwind CSS
 - 🔐 **GitHub 认证**: 基于 NextAuth.js 的 GitHub OAuth 安全登录
-- � **Git 数h据存储**: 使用 GitHub 仓库作为数据后端，版本可控
-- � **响应式设 计**: 移动优先的设计理念，完美适配各种设备
+- 💾 **Git 数据存储**: 使用 GitHub 仓库作为数据后端，版本可控
+- 📱 **响应式设计**: 移动优先的设计理念，完美适配各种设备
 - 🌓 **主题切换**: 内置深色/浅色主题支持
 - 🎯 **拖拽排序**: 直观的拖拽界面，轻松管理导航项目
 - 🔍 **智能搜索**: 快速定位和访问导航项目
-- 📱 **PWA 支持**: 渐进式 Web 应用体验
-- 🌐 **多语言支持**: 中英文界面切换
-- ⚡ **边缘计算**: Cloudflare Pages 部署，全球加速
+- 📝 **在线编辑**: 集成 Monaco Editor，支持在线编辑导航数据
+- 🎨 **图标支持**: 支持自定义图标和 SVG 图标
+- 🔧 **管理后台**: 完整的管理界面，支持分类管理和数据导入导出
+- ⚡ **边缘计算**: 支持 Vercel 和 Cloudflare Pages 部署
 
 ## 🛠️ 技术架构
 
@@ -53,9 +53,11 @@ NavSphere 是一个基于 Next.js 14 构建的现代化导航管理平台，专�
 | **NextAuth.js**     | 5.0.0-beta.25 | 身份认证解决方案      |
 | **Radix UI**        | Latest        | 无障碍 UI 组件库      |
 | **Lucide React**    | 0.462.0       | 现代图标库            |
-| **React Query**     | 5.61.5        | 数据获取和状态管理    |
+| **Tanstack Query**  | 5.61.5        | 数据获取和状态管理    |
 | **React Hook Form** | 7.53.2        | 表单处理              |
 | **Zod**             | 3.22.4        | 数据验证              |
+| **Monaco Editor**   | 0.52.2        | 代码编辑器            |
+| **Hello Pangea DnD**| 17.0.0        | 拖拽功能              |
 
 ## 🚀 快速开始
 
@@ -75,8 +77,8 @@ NavSphere 是一个基于 Next.js 14 构建的现代化导航管理平台，专�
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/tianyaxiang/NavSphere.git
-cd NavSphere
+git clone https://github.com/your-username/CerealsNavigation.git
+cd CerealsNavigation
 ```
 
 2. **安装依赖**
@@ -126,7 +128,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
    - 点击 "New OAuth App"
    - 填写应用信息：
      ```
-     Application name: NavSphere
+     Application name: CerealsNavigation
      Homepage URL: http://localhost:3000
      Authorization callback URL: http://localhost:3000/api/auth/callback/github
      ```
@@ -139,7 +141,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 
 1. **创建数据仓库**
    - 访问 [GitHub New Repository](https://github.com/new)
-   - 仓库名建议: `navsphere-data`
+   - 仓库名建议: `cerealsnavigation-data`
    - 可选择 Public 或 Private
 
 2. **初始化数据文件**
@@ -166,7 +168,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 
 1. **点击部署按钮**
    
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftianyaxiang%2FNavSphere&env=GITHUB_ID,GITHUB_SECRET,GITHUB_OWNER,GITHUB_REPO,GITHUB_BRANCH,NEXTAUTH_URL,NEXT_PUBLIC_API_URL&envDescription=GitHub%20OAuth%20%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E9%85%8D%E7%BD%AE&envLink=https%3A%2F%2Fgithub.com%2Ftianyaxiang%2FNavSphere%23%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE&project-name=navsphere&repository-name=navsphere)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2FCerealsNavigation&env=GITHUB_ID,GITHUB_SECRET,GITHUB_OWNER,GITHUB_REPO,GITHUB_BRANCH,NEXTAUTH_URL,NEXT_PUBLIC_API_URL&envDescription=GitHub%20OAuth%20%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E9%85%8D%E7%BD%AE&envLink=https%3A%2F%2Fgithub.com%2Fyour-username%2FCerealsNavigation%23%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE&project-name=cerealsnavigation&repository-name=cerealsnavigation)
 
 2. **配置环境变量**
    
@@ -299,7 +301,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 ```json
 {
   "basic": {
-    "title": "NavSphere",
+    "title": "CerealsNavigation",
     "description": "现代化导航管理平台",
     "keywords": "导航,书签,管理"
   },
@@ -336,7 +338,7 @@ pnpm clean
 ### 项目结构
 
 ```
-NavSphere/
+CerealsNavigation/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API 路由
 │   ├── components/        # 页面组件
@@ -344,6 +346,8 @@ NavSphere/
 │   └── layout.tsx         # 根布局
 ├── components/            # 共享组件
 ├── lib/                   # 工具函数
+├── navsphere/             # 导航数据目录
+│   └── content/           # 导航内容文件
 ├── public/               # 静态资源
 ├── styles/               # 样式文件
 └── types/                # TypeScript 类型定义
@@ -434,7 +438,7 @@ NavSphere/
 
 ### 贡献方式
 
-1. **报告问题**: 在 [Issues](https://github.com/tianyaxiang/NavSphere/issues) 中报告 bug
+1. **报告问题**: 在 [Issues](https://github.com/your-username/CerealsNavigation/issues) 中报告 bug
 2. **功能建议**: 提出新功能想法
 3. **代码贡献**: 提交 Pull Request
 4. **文档改进**: 完善项目文档
