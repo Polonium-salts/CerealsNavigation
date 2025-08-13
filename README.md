@@ -77,7 +77,7 @@ CerealsNavigation 是一个基于 Next.js 14 构建的现代化导航管理平�
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/your-username/CerealsNavigation.git
+git clone https://github.com/Polonium-salts/CerealsNavigation.git
 cd CerealsNavigation
 ```
 
