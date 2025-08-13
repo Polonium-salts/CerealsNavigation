@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/your-username/CerealsNavigation/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/your-username/CerealsNavigation?style=flat-square"></a>
-  <a href="https://github.com/your-username/CerealsNavigation/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/your-username/CerealsNavigation?style=flat-square"></a>
-  <a href="https://github.com/your-username/CerealsNavigation/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/your-username/CerealsNavigation?style=flat-square"></a>
-  <a href="https://github.com/your-username/CerealsNavigation/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.com/Polonium-salts/CerealsNavigation/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.com/Polonium-salts/CerealsNavigation/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.comPolonium-salts/CerealsNavigation/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/your-username/CerealsNavigation?style=flat-square"></a>
+  <a href="https://github.comPolonium-salts/CerealsNavigation/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/your-username/CerealsNavigation?style=flat-square"></a>
 </p>
 
 <p align="center">
